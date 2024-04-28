@@ -650,9 +650,9 @@ set link=https://www.internetdownloadmanager.com/register/IDMlib/images/idman_lo
 call :download
 set link=https://www.internetdownloadmanager.com/pictures/idm_about.png
 call :download
-set link=https://www.internetdownloadmanager.com/images/skpscr.jpeg
+set link=https://www.internetdownloadmanager.com/images/os.png
 call :download
-set link=https://www.internetdownloadmanager.com/images/bg_main440s.jpg
+set link=https://www.internetdownloadmanager.com/images/queue.png
 call :download
 
 echo:
