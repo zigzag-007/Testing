@@ -387,7 +387,7 @@ if %_reset%==1 goto :_reset
 if %_activate%==1 goto :_activate
 
 :MainMenu
-title IDM Activation Script %iasver%
+cls & title IDM Activation Script %iasver%
 if not defined terminal mode 75, 28
 
 echo:
