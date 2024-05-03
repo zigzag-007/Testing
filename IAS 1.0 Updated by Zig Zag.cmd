@@ -621,7 +621,7 @@ echo Applying registration details...
 echo:
 
 If not defined name set name=Zig Zag
-If not defined email set email=%name%.786@gmail.com
+If not defined email set email=%username%.%random%@gmail.com
 
 for /f "delims=" %%a in ('powershell "$key = -join ((Get-Random -Count  20 -InputObject ([char[]]('ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'))));$key = ($key.Substring(0,  5) + '-' + $key.Substring(5,  5) + '-' + $key.Substring(10,  5) + '-' + $key.Substring(15,  5) + $key.Substring(20));Write-Output $key" 2^>nul') do (set License_key=%%a)
 
